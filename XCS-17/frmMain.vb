@@ -275,10 +275,10 @@ Public Class frmMain
         End If
 
         frmMsg.Close()
-        'RFID_Comm.Open()
-        'BarcodeScan_Comm.Open()
-        'Vacuumscan_Comm.Open()
-        'Timer1.Enabled = True
+        RFID_Comm.Open()
+        BarcodeScan_Comm.Open()
+        Vacuumscan_Comm.Open()
+        Timer1.Enabled = True
     End Sub
 
     Private Sub Reset_PLC()
